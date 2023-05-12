@@ -50,7 +50,7 @@ require_once 'pointmaps/functions-pointmaps.php';
   * Defaults to "silver"
 * `pointbordercolor` = The color for the circle marker outline.
   * Defaults to "black"
-* `pointradius` = 
+* `pointradius` = The radius of the circle markers, in pixels.
   * Defaults to "10"
 * `caption` = An optional caption to be placed below the map. This is linked to the map's `aria-describedby` for accessibility purposes.
 * `width` = A width for the generated map, in CSS format.
