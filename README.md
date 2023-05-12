@@ -27,6 +27,9 @@ require_once 'pointmaps/functions-pointmaps.php';
 [pointmap geofile="/data.counties_fl.json" csvfile="/data/pointmap_sample_fl_gda.csv" csvlatfield="Lat" csvlngfield="Lng" csvnamefield="City"]
 ```
 
+![Screenshot](./screenshot.png)
+
+
 ## Shortcode Options
 
 * `geofile` = Required. URL of the GeoJSON file.
