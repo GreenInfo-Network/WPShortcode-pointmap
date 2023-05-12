@@ -31,8 +31,6 @@ require_once 'pointmaps/functions-pointmaps.php';
 
 * `geofile` = Required. URL of the GeoJSON file.
 * `csvfile` = Required. URL of the CSV file.
-
-
 * `csvlatfield` = The CSV column providing the latitude of each point.
   * Defaults to "Latitude"
 * `csvlngfield` = The CSV column providing the longitude of each point.
