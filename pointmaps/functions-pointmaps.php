@@ -29,15 +29,15 @@ add_shortcode('pointmap', function ($atts) {
     ), $atts);
 
     // enqueue necessary libraries
-    wp_enqueue_script('papaparse', get_template_directory_uri() . '/libraries/papaparse-5.4.1.min.js');
+    wp_enqueue_script('papaparse', get_template_directory_uri() . '/pointmaps/papaparse-5.4.1.min.js');
 
-    wp_enqueue_script('leaflet', get_template_directory_uri() . '/libraries/leaflet-1.9.3.js');
-    wp_enqueue_style('leaflet', get_template_directory_uri() . '/libraries/leaflet-1.9.3.css');
+    wp_enqueue_script('leaflet', get_template_directory_uri() . '/pointmaps/leaflet-1.9.3.js');
+    wp_enqueue_style('leaflet', get_template_directory_uri() . '/pointmaps/leaflet-1.9.3.css');
 
-    wp_enqueue_script('domtoimage', get_template_directory_uri() . '/libraries/domtoimagemore-3.1.6.min.js');
+    wp_enqueue_script('domtoimage', get_template_directory_uri() . '/pointmaps/domtoimagemore-3.1.6.min.js');
 
-    wp_enqueue_script('pointmaps', get_template_directory_uri() . '/functions-pointmaps.js');
-    wp_enqueue_style('pointmaps', get_template_directory_uri() . '/functions-pointmaps.css');
+    wp_enqueue_script('pointmaps', get_template_directory_uri() . '/pointmaps/functions-pointmaps.js');
+    wp_enqueue_style('pointmaps', get_template_directory_uri() . '/pointmaps/functions-pointmaps.css');
 
     // construct and return HTML
     $attrsjson = json_encode($atts);
