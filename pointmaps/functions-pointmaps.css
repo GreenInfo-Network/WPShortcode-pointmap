@@ -1,0 +1,19 @@
+/**
+ * STYLESHEETS FOR pointmaps.js MAPS
+ */
+
+div.pointmap-wrapper {
+    max-width: 100%;
+}
+
+div.pointmap {
+    border: 1px solid #00285E;
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+
+div.pointmap-wrapper div.pointmap-after button {
+    float: right;
+    margin: 0 0 1em 1em;
+}
